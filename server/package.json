@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "build/main.js",
+  "types": "build/main.d.ts",
+  "author": "nullxone",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean": "rm -rf build",
+    "run": "node build/main.js",
+    "runDev": "nodemon --watch build --delay 100ms --inspect=7000 build/main.js"
+  },
+  "devDependencies": {
+    "@types/pg": "^7.4.14",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "knex": "^0.16.5",
+    "objection": "^1.6.9",
+    "pg": "^7.11.0"
+  }
+}

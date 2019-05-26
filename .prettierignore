@@ -1,0 +1,14 @@
+/*/
+
+!/common
+!/common/**
+!/server
+!/server/**
+!/client
+!/client/**
+!/spec
+!/spec/**
+
+.git
+build
+node_modules
